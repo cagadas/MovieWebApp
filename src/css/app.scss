@@ -1,0 +1,29 @@
+.no_selection {
+    user-select: none; /* standard syntax */
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.imgBorder {
+    border: 4px solid black;
+    border-radius: 5px;
+    //#d4e157
+}
+.header {
+    font-size: 2rem;
+}
+.mid {
+    font-size: 1.3rem;
+}
+.normal {
+    font-size: 0.8rem;
+}
+
+.seeAll {
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
