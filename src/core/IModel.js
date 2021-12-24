@@ -4,7 +4,7 @@ export default class IStore {
 
     model = "";
     path = "https://api.themoviedb.org/3/";
-    apiKey = "fcf5144956604f154a8c4fef2e5a1346"
+    apiKey = ""
 
     constructor(model) {
         this.model = model;
